@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234, 240, 240);
+}
+
+.container {
+    height: 90vh;
+    margin: 30px;
+    display: flex;
+    background-color: white;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.images {
+    height: 100%;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: left;
+}
+
+.forms p {
+    margin-top: 20px;
+}
+
+.forms button {
+    background-color: #3532E3;
+    color: white;
+    width: 100%;
+    margin: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
